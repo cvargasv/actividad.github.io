@@ -1,0 +1,125 @@
+body{
+	
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 90%;
+	color: #010101;
+    
+    background-image: url(../images/fondoreloj.jpg);
+    background-size:100%;    
+
+}
+
+li {
+	line-height: 1.9em;
+}
+
+table{
+	border-spacing: 10px border-color: #010101; ;
+}
+	
+th,
+td {
+	
+padding: 5px 30px 5px 10px;
+border-spacing: 1px;
+font-size: 90%;
+margin: 20px;
+	
+	
+}
+
+th,
+td {
+	color: #010101;
+        font-family: Arial, Verdana, sans-serif;
+	border-bottom: 3px solid #010101;
+	border-right: 3px solid #010101;
+	border-top: 3px solid #010101;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666666;
+	letter-spacing: 0.15em;
+}
+	
+	
+tr.head th{
+	color: #010101;
+	background-color: #A95302;
+	border-bottom: 3px solid #010101;
+	border-right: 3px solid #010101;
+	border-top: 3px solid #010101;
+	text-align: center;
+	text-shadow: -1px -1px 1px #666666;
+	letter-spacing: 0.15em;
+
+	
+}
+td {
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td,
+tr.even th{
+	
+}
+
+tr.head th:first-chils {
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+
+}
+fieldset {
+	width: 310px;
+	margin-top: 20px;
+	border: 3px solid #d6d6d6;
+	background-color: #ffffff;
+	line-height: 1.6em;
+}
+
+legend{
+	font-style: italic;
+	color: #666666;
+}
+input[type='text']{
+	width: 120px;
+	border: 1px solid #d6d6d6;
+	padding: 2px;
+	outline: none;
+}
+
+input[type='text']:focus,
+input[type='text']:hover {
+	background-color: #d02ef0;
+	border: 1px solid #999999;
+}
+
+input[type='submit']{
+	border: 1px solid #006633;
+	background-color: #009966;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+}
+input[type='submit']:hover {
+	border: 1px solid #006633;
+	background-color: #00cc33;
+	color: #ffffff;
+	cursor: pointer;
+}
+.title{
+	float: left;
+	width: 160px;
+	clear: left;
+}
+
+.submit {
+	width: 310px;
+	text-align: right;
+}
